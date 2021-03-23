@@ -1,4 +1,4 @@
-package com.CMD.encryption;//package com.CMD.encryption;
+//package com.CMD.encryption;
 //
 //public class EncryptionTester {
 //    public static void main(String[] args) {
