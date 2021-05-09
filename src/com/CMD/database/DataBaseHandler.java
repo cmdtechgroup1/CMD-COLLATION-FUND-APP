@@ -309,7 +309,7 @@ public class DataBaseHandler {
             if (result.next()){
                 if(result.getInt(COLUMN_ID.value) != updateMember.getID())
                     return false;
-            }else {
+            }
                 statement.setString(1, firstName);
                 statement.setString(2, lastName);
                 statement.setString(3, phoneNumber);
@@ -318,7 +318,7 @@ public class DataBaseHandler {
                 statement.setString(6, imageUrl);
                 statement.setInt(7, id);
                 statement.execute();
-            }
+            
         } catch (SQLException e) {
             LOGGER.log(Level.ERROR, "{}", e);
         }
