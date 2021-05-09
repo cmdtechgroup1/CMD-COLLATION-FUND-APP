@@ -56,8 +56,8 @@ public class Main extends Application {
         RequestAssistant.setStageIcon(primaryStage);
 
 /*
-   *AnimateFX Library has been added from Maven.
-   *Fade animation on startup.
+* AnimateFX Library has been added from Maven.
+* Fade animation on startup.
 */
         new FadeIn(root).play();
 
